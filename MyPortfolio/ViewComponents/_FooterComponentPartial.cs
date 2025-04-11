@@ -5,9 +5,11 @@ namespace MyPortfolio.ViewComponents
 {
 	public class _FooterComponentPartial : ViewComponent
     {
+        MyPortfolioContext context = new MyPortfolioContext();
         public IViewComponentResult Invoke()
         {
-            return View();
+            var values = context.SocialMedias.ToList();
+            return View(values);
         }
     }
 }

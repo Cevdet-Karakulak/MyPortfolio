@@ -1,5 +1,11 @@
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddDistributedMemoryCache(); // Bellek tabanlý cache
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Oturum süresi
+});
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
@@ -15,6 +21,9 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+
+app.UseSession();
+
 
 app.UseRouting();
 
