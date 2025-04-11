@@ -1,4 +1,4 @@
-## 🎓 Asp.Net Core ile Portfolyo Uygulamanızı Geliştirin Kursu Kapsamında Gelitriğim Dİnamik Portfolyo Sitem
+## 🎓 Asp.Net Core ile Portfolyo Uygulamanızı Geliştirin Kursu Kapsamında Gelitriğim Dinamik Portfolyo Sitem
 
 Dinamik Portfolyo Web Sitesi projemi sizlerle paylaşmaktan mutluluk duyuyorum. Bu projeyi, Udemy'de Murat Yücedağ hocamızın, 2 part halinde ücretsiz olarak sunduğu "Asp.Net Core ile Portfolyo Uygulamanızı Geliştirin" kursu kapsamında geliştirdim.​
 
