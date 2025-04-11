@@ -7,7 +7,7 @@ Projem, kişisel becerilerimi, deneyimlerimi ve projelerimi sergileyebileceğim 
 
 ### 🛠️ Kullanılan Teknolojiler
 ### 🏗️ Backend:
-C#: Sunucu tarafı programlama dili olarak kullanıldı.​
+✅ C#: Sunucu tarafı programlama dili olarak kullanıldı.​
 
 🌐 ASP.NET Core: Web uygulaması çatısı olarak tercih edildi.​
 
